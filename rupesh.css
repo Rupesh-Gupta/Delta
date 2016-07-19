@@ -1,0 +1,29 @@
+body{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-orient: vertical;
+	margin: 0px;
+	padding: 0px;
+	border: solid 2px black;
+	height: 600px;
+}
+header, section, nav, footer, aside, article, hgroup{
+	display: block;
+}
+#header{
+	font: bold 36px Tahoma;
+	color: brown;
+	margin: 10px;
+	padding: 10px;
+}
+#main{
+	margin: 5px auto;
+	padding: 5px;
+	background: #66CCCC;
+	border: solid 2px maroon;
+	width: 500px;
+	height: 200px;
+	color: brown;
+	text-align: center;
+	font: bold 24px Gabriola;
+}
