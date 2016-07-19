@@ -1,0 +1,77 @@
+html, body{
+	margin: 5px 5px 5px 5px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	width: 100%;
+}
+h2
+{
+	font-size: 36px;
+	letter-spacing: 2px;
+	margin-top: 0;
+	padding: 60px 0 15px 0;
+}
+h1
+{
+	font-size: 42px;
+	letter-spacing: 3px;
+	margin-top: 0;
+	padding: 60px 0 15px 0;
+}
+h3{
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 0;
+	padding: 30px 0 10px 0;
+}
+header{
+	margin-bottom: 5px;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	background-color: #333;
+}
+#wrapper{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+section{
+	background-color: #333;
+	text-align: left;
+	padding: 30px;
+	color: white;
+	-webkit-box-flex:1;
+}
+aside{
+	margin-left: 5px;
+	background-color: #66CCCC;
+	text-align: center;
+	color: grey;
+	-webkit-box-flex: 0;
+	width: 300px;
+}
+#show_details{
+	background-color: #333;
+	color: white;
+	font: bold 24px Tahoma;
+	padding: 20px 20px 20px 50px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#part1{
+	-webkit-box-flex:1;
+}
+#part2
+{
+	-webkit-box-flex:0;
+	width: 400px;
+	padding:80px 20px 20px 20px;
+}
+#show_details h1{
+	color: gold;
+}
+.note{
+	color: red;
+}
